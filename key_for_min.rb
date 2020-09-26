@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
       name_hash[key].slice
       count += 1 
     elsif
-      name << key
+      name = key
     else
       nil 
     end
