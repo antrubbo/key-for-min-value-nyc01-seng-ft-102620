@@ -7,8 +7,10 @@ def key_for_min_value(name_hash)
     if value > name_hash[count]
       name_hash[key].slice
       count += 1 
-    else
+    elsif
       return key
+    else
+      nil 
     end
   end
 end
